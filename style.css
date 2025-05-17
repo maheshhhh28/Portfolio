@@ -1,0 +1,160 @@
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+        
+        /* About Section */
+        .about {
+            background: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        /* Skills Section */
+        .skills {
+            background: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .skill-item {
+            background: #35424a;
+            color: white;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+        
+        /* Projects Section */
+        .projects {
+            background: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .project-img {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+        }
+        
+        .project-info {
+            padding: 15px;
+        }
+        
+        /* Contact & Social Section */
+        .contact {
+            background: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .social-links {
+            margin-top: 20px;
+        }
+        
+        .social-btn {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .social-btn:hover {
+            opacity: 0.8;
+        }
+        
+        .github {
+            background-color: #333;
+        }
+        
+        .linkedin {
+            background-color: #0077B5;
+        }
+        
+        .twitter {
+            background-color: #1DA1F2;
+        }
+        
+        .instagram {
+            background: #d6249f;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        }
+        
+        /* Footer */
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        /* Responsive Design */
+        @media(max-width: 768px) {
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+        }
